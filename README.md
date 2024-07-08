@@ -1,4 +1,4 @@
-# simple project to-do List Application
+# simple project todo List Application
 
 This is a project of a todo list application using docker and docker-comose
 
