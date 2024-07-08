@@ -1,6 +1,6 @@
-# Example to-do List Application
+# simple project to-do List Application
 
-This repository is a simple to-do list manager that runs on Node.js.
+This is a project of a todo list application using docker and docker-comose
 
 ## Getting started
 
@@ -12,12 +12,12 @@ On Linux, make sure you have the latest version of [Compose](https://docs.docker
 Open a terminal and clone this sample application.
 
 ```
- git clone https://github.com/dockersamples/todo-list-app
+ git clone https://github.com/dapkeprajwal/docker--todolist
 ```
 
 ## Run the app
 
-Navigate into the todo-list-app directory:
+Navigate into the docker--todolist directory:
 
 ```
 docker compose up -d --build
@@ -46,16 +46,11 @@ NAME                    IMAGE            COMMAND                  SERVICE   CREA
 todo-list-app-app-1     node:18-alpine   "docker-entrypoint.s…"   app       24 seconds ago   Up 7 seconds    127.0.0.1:3000->3000/tcp
 todo-list-app-mysql-1   mysql:8.0        "docker-entrypoint.s…"   mysql     24 seconds ago   Up 23 seconds   3306/tcp, 33060/tcp
 ```
-
-If you look at the Docker Desktop GUI, you can see the containers and dive deeper into their configuration.
-
+![Screenshot from 2024-07-08 09-58-27](https://github.com/dapkeprajwal/docker--todolist/assets/113695938/6270dd8f-8024-461c-82c1-98a3ad4c025d)
 
 
 
-<img width="1330" alt="image" src="https://github.com/dockersamples/todo-list-app/assets/313480/d85a4bcf-e2c3-4917-9220-7d9b9a78dc54">
 
 
-## Access the app
 
-The to-do list app will be running at [http://localhost:3000](http://localhost:3000).
 
